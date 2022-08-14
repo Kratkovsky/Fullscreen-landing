@@ -10,17 +10,17 @@
 }
 
 
-body {
+.header {
   background-image: url(../img/01.jpg);
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  min-height: 100vh;
+  padding-top: 40vh;
 }
 
-h1 {
-  display: block;
+.main-heading {
   text-align: center;
-  padding-top: 400px;
   text-transform: capitalize;
   font-size: 50px;
   font-weight: bold;
@@ -51,39 +51,35 @@ h1 {
   color: #fff;
 }
 
-.text-1, .text-2 {
-  display: block;
+.large-text,
+.large-text-inverted {
   text-align: center;
   line-height: 1.6;
   font-size: 17px;
   padding: 20px;
 }
 
-.text-1 {
+.large-text {
   background-color: #926239;
   color: #fff;
-  margin-top: 410px;
 }
 
-.text-2 {
+.large-text-inverted {
   background-color:#f4f4f4;
 }
 
-.text-3, .text-5 {
+.small-text,
+.small-text-inverted {
   display: inline-block;
   line-height: 1.6;
   padding: 20px;
-  width: 632px;
+  width: 33%;
   font-size: 17px;
   background-color: #926239;
   color: #fff;
 }
 
-.text-4 {
-  display: inline-block;
-  line-height: 1.6;
-  padding: 20px;
-  width: 630px;
-  font-size: 17px;
+.small-text-inverted {
+  color: #926239;
   background-color: #fff;
 }

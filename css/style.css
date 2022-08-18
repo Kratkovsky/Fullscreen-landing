@@ -83,3 +83,10 @@
   color: #926239;
   background-color: #fff;
 }
+
+@media screen and (max-width: 887px) { 
+  .small-text,
+  .small-text-inverted {
+    width: 100%;
+  }
+}
